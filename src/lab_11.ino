@@ -11,7 +11,6 @@ unsigned long lastPrintSample = 0;
 void setup() {
 	Serial.begin(9600);
   Blynk.begin("2CWaNQmhBm6ocgYr7F0AVxtpOOQpAaSl", IPAddress(167, 172, 234, 162), 9090);
-	delay(5000);
 
 	// Initialize sensors
 	LIS3DHConfig config;
